@@ -1,0 +1,31 @@
+
+# Claves y secretos
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Entorno virtual de Python
+venv/
+.venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración local
+.streamlit/config.toml
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Logs
+*.log
